@@ -15,7 +15,7 @@ import UserNotifications
 
 class NotificationUtils{
     fileprivate init(){}
-    static let ALERT_TITLE = "IoT Automotive Car Sharing"
+    static let ALERT_TITLE = "IBM IoT Connected Vehicle Insights Car Sharing"
     static let ACTION_OPEN_RESERVATION = "ACTION_OPEN_RESERVATION"
     static let ACTION_OK = "ACTION_OK"
     static let CATEGORY_OPEN_RESERVATION = "CATEGORY_OPEN_RESERVATION"

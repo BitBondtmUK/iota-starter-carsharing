@@ -160,7 +160,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UIViewControl
         
         // Set title border
         let smarterMobilityText = NSAttributedString(
-            string: "IBM IoT for Automotive",
+            string: "IBM IoT Connected Vehicle Insights",
             attributes: [NSStrokeColorAttributeName: Colors.dark,
                         NSStrokeWidthAttributeName: -1.0])
         smarterMobilityLabel.attributedText = smarterMobilityText

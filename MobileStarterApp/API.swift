@@ -18,7 +18,7 @@ let USER_DEFAULTS_KEY_MCA_TENANT_ID = "mcaTenantId"
 
 struct API {
     static var moveToRootOnError = true
-    //static let defaultAppURL = "https://iota-starter-server.mybluemix.net" // Your Bluemix Application URL
+    //static let defaultAppURL = "https://iota-starter-server.mybluemix.net" // Your IBM Cloud Application URL
     static let defaultPushAppGUID = "" // (Optional) Your Push Notifications Service
     static let defaultPushClientSecret = "" // (Optional) Your Push Notifications Service
     static let defaultMcaTenantId = "" // (Optional) Your Mobile Client Access Service

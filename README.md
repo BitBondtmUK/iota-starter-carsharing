@@ -1,7 +1,7 @@
-# IBM IoT for Automotive - Mobility Starter Application mobile app for iOS
+# IBM IoT Connected Vehicle Insights - Mobility Starter Application mobile app for iOS
 
 ## Overview
-The IBM IoT for Automotive - Mobility Starter Application uses the **Context Mapping** and **Driver Behavior** services that are available on **IBM Cloud** to help you to quickly build a smart car-sharing automotive solution. The IBM IoT for Automotive - Mobility Starter Application consists of a mobile app and a server component.
+The IBM IoT Connected Vehicle Insights - Mobility Starter Application uses the **Context Mapping** and **Driver Behavior** services that are available on **IBM Cloud** to help you to quickly build a smart car-sharing automotive solution. The IBM IoT Connected Vehicle Insights - Mobility Starter Application consists of a mobile app and a server component.
 
 ### Mobile app
 The starter app provides a mobile app for customers to quickly find and hire a car without human intervention from a car-hire company. If you are a car-hire customer, you can use the mobile app to do the following tasks:
@@ -14,11 +14,11 @@ The starter app provides a mobile app for customers to quickly find and hire a c
 While you drive the car, the service tracks your location and also records your driving behavior. When you reach your driving destination, you can view information about each trip that you took in the car and you can also view your driving behavior score.
 
 ### Server component
-The IoT for Automotive - Mobility Starter Application mobile app interacts with the server component. The server component provides the back-end car sharing and system monitoring service that provides more features for car-hire companies. By default, the mobile app connects to a test server that is provided by IBM. You can also choose to deploy your own server instance to IBM Cloud and connect your mobile app to that instance instead of the test system. For more information about deploying the car-sharing server component, see [ibm-watson-iot/iota-starter-server](https://github.com/ibm-watson-iot/iota-starter-server).
+The IBM IoT Connected Vehicle Insights - Mobility Starter Application mobile app interacts with the server component. The server component provides the back-end car sharing and system monitoring service that provides more features for car-hire companies. By default, the mobile app connects to a test server that is provided by IBM. You can also choose to deploy your own server instance to IBM Cloud and connect your mobile app to that instance instead of the test system. For more information about deploying the car-sharing server component, see [ibm-watson-iot/iota-starter-server](https://github.com/ibm-watson-iot/iota-starter-server).
 
 ## Prerequisites
 
-Before you deploy the IoT for Automotive - Mobility Starter Application mobile app for iOS, ensure that the following prerequisites are met:
+Before you deploy the IBM IoT Connected Vehicle Insights - Mobility Starter Application mobile app for iOS, ensure that the following prerequisites are met:
 
 - The sample source code for the mobile app is only supported for use with an official Apple iOS device.
 - The sample source code for the mobile app is also supported only with officially licensed Apple development tools that are customized and distributed under the terms and conditions of your licensed Apple iOS Developer Program or your licensed Apple iOS Enterprise Program.
@@ -26,9 +26,9 @@ Before you deploy the IoT for Automotive - Mobility Starter Application mobile a
 
 ## Deploying the mobile app
 
-You can download and install the mobile app on iOS and Android mobile devices. For more information about trying the Android version of the mobile app, see [IBM IoT for Automotive - Mobility Starter Application mobile app for Android](https://github.com/ibm-watson-iot/iota-starter-carsharing-android).
+You can download and install the mobile app on iOS and Android mobile devices. For more information about trying the Android version of the mobile app, see [IBM IoT Connected Vehicle Insights - Mobility Starter Application mobile app for Android](https://github.com/ibm-watson-iot/iota-starter-carsharing-android).
 
-To try the IoT for Automotive - Mobility Starter Application mobile app for iOS with iOS Simulator, complete the following steps:
+To try the IBM IoT Connected Vehicle Insights - Mobility Starter Application mobile app for iOS with iOS Simulator, complete the following steps:
 
 1. Open a Terminal session and install CocoaPods by using the following command:   
 ```$ sudo gem install cocoapods```    
@@ -40,7 +40,7 @@ To try the IoT for Automotive - Mobility Starter Application mobile app for iOS 
 
 4. Set bundle identifier and signing properly for your project in reference to [Creating Provisioning Profiles Using Your Developer Account](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingProfiles/MaintainingProfiles.html#//apple_ref/doc/uid/TP40012582-CH30-SW24)
 
-5. Edit the **API.swift file**, and set the `defaultAppURL` property to the URL for your IoT for Automotive - Mobility Starter Application server app.
+5. Edit the **API.swift file**, and set the `defaultAppURL` property to the URL for your IBM IoT Connected Vehicle Insights - Mobility Starter Application server app.
 
 6. Go to the upper left of the Xcode UI, click **Run**.
 
@@ -94,24 +94,24 @@ To enable push notifications, complete the following steps:
 For more information, see [Push notifications](https://console.ng.bluemix.net/docs/services/mobilepush/t_push_provider_ios.html).
 
 ### Mobile Client Access service
-You cannot utilize Mobile Client Access for IoT for Automotive - Mobility Starter Application mobile app because Mobile Client Access service doesn't support custom authentication any more.
+You cannot utilize Mobile Client Access for IBM IoT Connected Vehicle Insights - Mobility Starter Application mobile app because Mobile Client Access service doesn't support custom authentication any more.
 
 ## Reporting defects
-To report a defect with the IoT for Automotive - Mobility Starter Application mobile app, go to the [Issues](https://github.com/ibm-watson-iot/iota-starter-carsharing/issues) section.
+To report a defect with the IBM IoT Connected Vehicle Insights - Mobility Starter Application mobile app, go to the [Issues](https://github.com/ibm-watson-iot/iota-starter-carsharing/issues) section.
 
 ## Privacy notice
-The IoT for Automotive - Mobility Starter Application on IBM Cloud stores all of the driving data that is obtained while you use the mobile app.
+The IBM IoT Connected Vehicle Insights - Mobility Starter Application on IBM Cloud stores all of the driving data that is obtained while you use the mobile app.
 
 ## Apple Developer Program License Notice
 
-IBM is delivering this sample source code for IoT for Automotive Starter Mobile Application to Client for further development, build and test. Client understands and confirms that further development (whether performed by the Client or by IBM acting on the Client's behalf) is undertaken under the Client's Apple Developer Program or Apple Developer Enterprise Program Agreement. The Client confirms that they have all appropriate Apple Developer Program license(s) and that the Client, as Apple's licensee, is subject to, and will comply with, the terms of the appropriate Apple Developer Program Agreement.
+IBM is delivering this sample source code for IBM IoT Connected Vehicle Insights Starter Mobile Application to Client for further development, build and test. Client understands and confirms that further development (whether performed by the Client or by IBM acting on the Client's behalf) is undertaken under the Client's Apple Developer Program or Apple Developer Enterprise Program Agreement. The Client confirms that they have all appropriate Apple Developer Program license(s) and that the Client, as Apple's licensee, is subject to, and will comply with, the terms of the appropriate Apple Developer Program Agreement.
 
 ## Questions, comments or suggestions
-For your questions, comments or suggestions to us, visit [Watson IoT for Automotive Application community site] (https://www.ibm.com/developerworks/community/groups/service/html/communitystart?communityUuid=3b06ca1c-fd7c-4a59-a888-e5e3a8384091).
+For your questions, comments or suggestions to us, visit [IBM IoT Connected Vehicle Insights Application community site] (https://www.ibm.com/developerworks/community/groups/service/html/communitystart?communityUuid=3b06ca1c-fd7c-4a59-a888-e5e3a8384091).
 
 ## Useful links
 
-- [IBM IoT for Automotive](http://www.ibm.com/internet-of-things/iot-industry/iot-automotive)
+- [IBM IoT Connected Vehicle Insights](http://www.ibm.com/internet-of-things/iot-industry/iot-automotive)
 - [IBM Watson Internet of Things](http://www.ibm.com/internet-of-things/)  
 - [IBM Watson IoT Platform](http://www.ibm.com/internet-of-things/iot-solutions/watson-iot-platform/)   
 - [IBM Watson IoT Platform Developers Community](https://developer.ibm.com/iotplatform/)

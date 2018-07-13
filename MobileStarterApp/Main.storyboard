@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bkd-oq-qSd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bkd-oq-qSd">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -85,7 +86,7 @@
                         <viewControllerLayoutGuide type="bottom" id="jmr-uS-8IO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fzt-NP-ayo">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUf-Ns-T2D">
@@ -93,7 +94,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="116" id="xEB-37-fPC"/>
                                 </constraints>
-                                <string key="text">After instantiating the "IBM IoT for Automotive" boilerplate, tap the QR code button below to scan the QR code from your application's home page.</string>
+                                <string key="text">After instantiating the "IBM IoT Connected Vehicle Insights - Mobility Starter Application server", tap the QR code button below to scan the QR code from your application's home page.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -158,7 +159,7 @@
                         <viewControllerLayoutGuide type="bottom" id="c7k-Rn-k1h"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="L0c-ST-mxn">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -177,34 +178,40 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IBM-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="QUV-N5-ITI">
-                                <rect key="frame" x="296" y="20" width="80" height="25"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="IBM-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="QUV-N5-ITI">
+                                <rect key="frame" x="296" y="0.0" width="80" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="6qn-8r-X3W"/>
                                     <constraint firstAttribute="width" constant="80" id="THm-NT-ld1"/>
                                 </constraints>
                             </imageView>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="firstPageImage" translatesAutoresizingMaskIntoConstraints="NO" id="pgy-Ud-GhQ">
-                                <rect key="frame" x="0.0" y="64" width="375" height="190"/>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="firstPageImage" translatesAutoresizingMaskIntoConstraints="NO" id="pgy-Ud-GhQ">
+                                <rect key="frame" x="0.0" y="44" width="375" height="190"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="190" id="fQf-t1-w3A"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mobility Starter Application" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aO-97-j0j">
-                                <rect key="frame" x="20" y="342" width="335" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="335" id="ElF-YJ-cjF"/>
-                                    <constraint firstAttribute="height" constant="21" id="POr-mR-eUm"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="IBM IoT Connected Vehicle Insights" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuF-Bv-bd8">
+                                <rect key="frame" x="16" y="262" width="343" height="72"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Mobility Starter Application" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aO-97-j0j">
+                                <rect key="frame" x="16" y="342" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m30-9d-1RU">
-                                <rect key="frame" x="91" y="378" width="192" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m30-9d-1RU">
+                                <rect key="frame" x="92" y="378" width="192" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="SxJ-uH-hBM"/>
+                                    <constraint firstAttribute="width" constant="192" id="vSt-t3-DU7"/>
+                                </constraints>
                                 <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                 <state key="normal" title="Specify Server">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -213,11 +220,11 @@
                                     <segue destination="CJC-WR-vvO" kind="show" id="Ja9-TK-9rq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2J-as-g72">
-                                <rect key="frame" x="97" y="418" width="192" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2J-as-g72">
+                                <rect key="frame" x="92" y="417" width="192" height="39"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="192" id="gDb-oY-07h"/>
-                                    <constraint firstAttribute="height" constant="39" id="pa9-vd-pWJ"/>
+                                    <constraint firstAttribute="width" constant="192" id="CUu-qq-fQQ"/>
+                                    <constraint firstAttribute="height" constant="39" id="kCn-qT-Emc"/>
                                 </constraints>
                                 <state key="normal" title="Simulate Carsharing">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -227,11 +234,11 @@
                                     <segue destination="DZd-Zx-oZY" kind="show" identifier="showHomeTab" id="dZy-Y8-SIZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60l-aG-gGT">
-                                <rect key="frame" x="91" y="458" width="192" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60l-aG-gGT">
+                                <rect key="frame" x="92" y="456" width="192" height="39"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="39" id="7re-ix-ELk"/>
-                                    <constraint firstAttribute="width" constant="192" id="wuQ-t1-c91"/>
+                                    <constraint firstAttribute="width" constant="192" id="Faf-Bf-3lg"/>
+                                    <constraint firstAttribute="height" constant="39" id="RgA-Dx-hZc"/>
                                 </constraints>
                                 <state key="normal" title="Analyze My Driving">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -241,23 +248,9 @@
                                     <segue destination="DZd-Zx-oZY" kind="show" identifier="showDriveTab" id="vlP-M9-RLq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Version: v.r.m Build: yyyymmdd" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1b-7Y-rUK">
-                                <rect key="frame" x="80" y="514" width="214" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="7mB-3F-MJH"/>
-                                    <constraint firstAttribute="width" constant="213" id="YkK-jF-vpm"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version: v.r.m Build: yyyymmdd" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1b-7Y-rUK">
+                                <rect key="frame" x="86" y="566" width="202" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="IBM IoT for Automotive" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuF-Bv-bd8">
-                                <rect key="frame" x="16" y="292" width="343" height="42"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="PUG-Nq-BjC"/>
-                                    <constraint firstAttribute="width" constant="335" id="s4O-D5-Nes"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -265,24 +258,26 @@
                         <color key="backgroundColor" red="0.14509803921568629" green="0.28235294117647058" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="QUV-N5-ITI" secondAttribute="trailing" constant="-17" id="0f4-Wp-fpf"/>
-                            <constraint firstItem="G1b-7Y-rUK" firstAttribute="centerX" secondItem="60l-aG-gGT" secondAttribute="centerX" id="1Nx-dd-Mb7"/>
-                            <constraint firstItem="pgy-Ud-GhQ" firstAttribute="centerX" secondItem="xuF-Bv-bd8" secondAttribute="centerX" id="Aee-sW-n3H"/>
-                            <constraint firstItem="60l-aG-gGT" firstAttribute="top" secondItem="O2J-as-g72" secondAttribute="bottom" constant="16" id="Bid-6g-XzY"/>
+                            <constraint firstItem="O2J-as-g72" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2sd-Ra-Q5h"/>
+                            <constraint firstItem="G1b-7Y-rUK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="60l-aG-gGT" secondAttribute="bottom" constant="16" id="5d3-wL-wgy"/>
+                            <constraint firstItem="m30-9d-1RU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6gC-hw-49t"/>
+                            <constraint firstItem="G1b-7Y-rUK" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-20" id="6km-vO-sEx"/>
+                            <constraint firstItem="3aO-97-j0j" firstAttribute="top" secondItem="xuF-Bv-bd8" secondAttribute="bottom" constant="8" symbolic="YES" id="9qh-Ml-FGf"/>
                             <constraint firstItem="pgy-Ud-GhQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="DYn-Xg-926"/>
-                            <constraint firstItem="O2J-as-g72" firstAttribute="top" secondItem="m30-9d-1RU" secondAttribute="bottom" constant="16" id="ENi-nL-v2l"/>
-                            <constraint firstItem="60l-aG-gGT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GWx-n1-BCW"/>
-                            <constraint firstItem="G1b-7Y-rUK" firstAttribute="top" secondItem="60l-aG-gGT" secondAttribute="bottom" constant="17" id="JBq-5a-Z5f"/>
-                            <constraint firstItem="3aO-97-j0j" firstAttribute="centerX" secondItem="xuF-Bv-bd8" secondAttribute="centerX" id="TeC-F6-Noc"/>
-                            <constraint firstItem="QUV-N5-ITI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" symbolic="YES" id="TrU-I0-gcj"/>
+                            <constraint firstItem="3aO-97-j0j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fks-7Z-vGy"/>
+                            <constraint firstItem="O2J-as-g72" firstAttribute="top" secondItem="m30-9d-1RU" secondAttribute="bottom" constant="16" id="HgK-Y4-BDY"/>
+                            <constraint firstItem="xuF-Bv-bd8" firstAttribute="top" secondItem="pgy-Ud-GhQ" secondAttribute="bottom" constant="8" symbolic="YES" id="LtO-ht-Ow8"/>
+                            <constraint firstItem="3aO-97-j0j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Mp5-TS-rZV"/>
+                            <constraint firstItem="60l-aG-gGT" firstAttribute="top" secondItem="O2J-as-g72" secondAttribute="bottom" constant="16" id="QIW-sR-xoc"/>
+                            <constraint firstItem="QUV-N5-ITI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="top" id="TrU-I0-gcj"/>
                             <constraint firstItem="pgy-Ud-GhQ" firstAttribute="top" secondItem="QUV-N5-ITI" secondAttribute="bottom" constant="19" id="UB6-TM-fac"/>
-                            <constraint firstItem="O2J-as-g72" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bNf-cS-TE2"/>
+                            <constraint firstItem="G1b-7Y-rUK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zff-VE-M1i"/>
                             <constraint firstItem="pgy-Ud-GhQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="caf-HO-HnM"/>
-                            <constraint firstItem="m30-9d-1RU" firstAttribute="width" secondItem="O2J-as-g72" secondAttribute="width" id="cdF-Vk-yMx"/>
-                            <constraint firstItem="m30-9d-1RU" firstAttribute="centerX" secondItem="O2J-as-g72" secondAttribute="centerX" id="ejW-YZ-7Am"/>
-                            <constraint firstItem="3aO-97-j0j" firstAttribute="top" secondItem="xuF-Bv-bd8" secondAttribute="bottom" constant="8" id="esI-SF-e2R"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="G1b-7Y-rUK" secondAttribute="bottom" constant="17" id="gd9-LJ-uXz"/>
-                            <constraint firstItem="m30-9d-1RU" firstAttribute="top" secondItem="3aO-97-j0j" secondAttribute="bottom" constant="25" id="lMD-HW-bpr"/>
-                            <constraint firstItem="m30-9d-1RU" firstAttribute="height" secondItem="O2J-as-g72" secondAttribute="height" id="pPL-Yh-dcQ"/>
+                            <constraint firstItem="m30-9d-1RU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="3aO-97-j0j" secondAttribute="bottom" constant="16" id="dnM-Mn-iLH"/>
+                            <constraint firstItem="xuF-Bv-bd8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="drc-CS-kRO"/>
+                            <constraint firstItem="xuF-Bv-bd8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gQa-eG-4Yq"/>
+                            <constraint firstItem="60l-aG-gGT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i5q-xk-Vda"/>
+                            <constraint firstItem="QUV-N5-ITI" firstAttribute="top" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="jc9-tY-r3c"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TfE-EZ-ruJ"/>
@@ -298,7 +293,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7148.4375" y="-1494.1901408450703"/>
+            <point key="canvasLocation" x="-7149.6000000000004" y="-1494.6026986506747"/>
         </scene>
         <!--Drive-->
         <scene sceneID="OZM-2U-9G0">
@@ -309,7 +304,7 @@
                         <viewControllerLayoutGuide type="bottom" id="TaV-Bm-udn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TkI-6k-Ibf">
-                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mzl-gz-PFI">
@@ -555,7 +550,7 @@
                         <viewControllerLayoutGuide type="bottom" id="zYF-7G-EPZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ure-3e-Raw">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" pitchEnabled="NO" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KNa-Va-Tqr">
@@ -575,7 +570,7 @@
                                         <rect key="frame" x="0.0" y="28" width="1000" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lx8-O0-iwV" id="Eyr-La-uQn">
-                                            <rect key="frame" x="0.0" y="0.0" width="1000" height="80"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1000" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name of car" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFm-D3-ImJ">
@@ -591,7 +586,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rating of car" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxy-P6-yHb">
-                                                    <rect key="frame" x="93" y="52" width="102" height="21"/>
+                                                    <rect key="frame" x="100" y="49.5" width="102" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="102" id="8Um-b5-spl"/>
                                                         <constraint firstAttribute="height" constant="21" id="tmf-ui-qpa"/>
@@ -607,7 +602,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="model-s" translatesAutoresizingMaskIntoConstraints="NO" id="FTu-RQ-RZK">
-                                                    <rect key="frame" x="8" y="8" width="77" height="65"/>
+                                                    <rect key="frame" x="15" y="11" width="77" height="59"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="77" id="G4P-eU-1Dm"/>
                                                     </constraints>
@@ -761,7 +756,7 @@
                         <viewControllerLayoutGuide type="bottom" id="YNT-dV-xNw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Xz4-NL-5Wy">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carImageBig" translatesAutoresizingMaskIntoConstraints="NO" id="mk1-f4-DoJ">
@@ -799,14 +794,14 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="tKe-Yx-3pV">
-                                        <rect key="frame" x="0.0" y="28" width="1000" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tKe-Yx-3pV" id="ssf-Fs-tpi">
-                                            <rect key="frame" x="0.0" y="0.0" width="1000" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kj-yG-fch">
-                                                    <rect key="frame" x="8" y="8" width="42" height="20.5"/>
+                                                    <rect key="frame" x="15" y="11" width="42" height="15"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -894,7 +889,7 @@
                         <viewControllerLayoutGuide type="bottom" id="SYF-IQ-Pur"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jdz-5a-aJa">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carImageBig" translatesAutoresizingMaskIntoConstraints="NO" id="iEW-ej-phG">
@@ -1214,7 +1209,7 @@
                         <viewControllerLayoutGuide type="bottom" id="AfV-N7-Snh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Aiz-d3-PEQ">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86H-cG-0iI">
@@ -1241,10 +1236,10 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" reuseIdentifier="ReservationsTableViewCell" id="Q0V-t7-J2F" customClass="ReservationsTableViewCell" customModule="MobilityStarterApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="1000" height="80"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q0V-t7-J2F" id="oSS-ga-iQA">
-                                            <rect key="frame" x="0.0" y="0.0" width="1000" height="80"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="model-s" translatesAutoresizingMaskIntoConstraints="NO" id="lB1-uK-nIm">
@@ -1320,7 +1315,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Mq3-Jc-g9R"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9Dr-JY-mef">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9oe-Tx-4BH">
@@ -1386,7 +1381,7 @@
                         <viewControllerLayoutGuide type="bottom" id="7f4-UL-T9X"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Glf-tS-W0s">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V2Q-lz-brE">
@@ -1415,10 +1410,10 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="69" id="Boj-LB-8eN">
-                                        <rect key="frame" x="0.0" y="28" width="1000" height="69"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="69"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Boj-LB-8eN" id="UXE-vN-yrP">
-                                            <rect key="frame" x="0.0" y="0.0" width="818" height="69"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="68.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
@@ -1464,7 +1459,7 @@
                         <viewControllerLayoutGuide type="bottom" id="jZZ-MI-vo6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4j9-DM-21M">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2ou-MQ-XzU">
@@ -1478,7 +1473,7 @@
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5ue-HA-Q9K" id="teY-MY-8ho">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -1532,7 +1527,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Ebc-3B-TR2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="15q-5z-265">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carImageBig" translatesAutoresizingMaskIntoConstraints="NO" id="D3B-uT-CBR">
@@ -1586,13 +1581,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unlock the car will be available at pick up time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAw-3i-fHz">
-                                <rect key="frame" x="76" y="437" width="223.5" height="12"/>
+                                <rect key="frame" x="76" y="388" width="223.5" height="12"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxO-ZZ-TIO">
-                                <rect key="frame" x="16" y="452" width="343" height="57"/>
+                                <rect key="frame" x="16" y="403" width="343" height="57"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="57" id="6QY-p3-t4V"/>
@@ -1605,7 +1600,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUE-Wk-4C9">
-                                <rect key="frame" x="16" y="526" width="154" height="57"/>
+                                <rect key="frame" x="16" y="477" width="154" height="57"/>
                                 <color key="backgroundColor" red="0.15294117647058825" green="0.29019607843137257" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="57" id="xmf-Ks-aUh"/>
@@ -1619,7 +1614,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPu-6z-tzn">
-                                <rect key="frame" x="205" y="526" width="154" height="57"/>
+                                <rect key="frame" x="205" y="477" width="154" height="57"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="57" id="hbz-QC-3ZN"/>
                                 </constraints>
@@ -1647,13 +1642,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plate #:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6P-Gg-ku3">
-                                <rect key="frame" x="44.5" y="302.5" width="95" height="21"/>
+                                <rect key="frame" x="45" y="302.5" width="95" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUG-88-Fsk">
-                                <rect key="frame" x="44.5" y="332" width="95" height="21"/>
+                                <rect key="frame" x="45" y="332" width="95" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1665,21 +1660,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plateIcon" translatesAutoresizingMaskIntoConstraints="NO" id="GzN-jk-YOO">
-                                <rect key="frame" x="18" y="307" width="18" height="12"/>
+                                <rect key="frame" x="17.5" y="307" width="19" height="12"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="12" id="8Sb-oU-JEk"/>
                                     <constraint firstAttribute="width" constant="18" id="yf5-en-Gff"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="priceIcon" translatesAutoresizingMaskIntoConstraints="NO" id="iO2-LO-FnV">
-                                <rect key="frame" x="19.5" y="330" width="15" height="34"/>
+                                <rect key="frame" x="19" y="330" width="16" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="el9-H5-cxt"/>
                                     <constraint firstAttribute="width" constant="16" id="x4U-ho-eZ2"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="license plate number here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffQ-vN-LKp">
-                                <rect key="frame" x="157.5" y="302.5" width="205.5" height="21"/>
+                                <rect key="frame" x="158" y="302.5" width="205" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1788,7 +1783,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bkd-oq-qSd" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="eh3-KZ-kEG">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1819,6 +1814,6 @@
         <image name="timeIcon" width="21" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="e2S-6T-B41"/>
+        <segue reference="vlP-M9-RLq"/>
     </inferredMetricsTieBreakers>
 </document>
